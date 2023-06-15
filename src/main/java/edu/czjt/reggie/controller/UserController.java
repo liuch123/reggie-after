@@ -29,11 +29,7 @@ public class UserController {
      * @param user
      * @return
      */
-    /**
-     * 发送手机短信验证码
-     * @param user
-     * @return
-     */
+ /**
     @PostMapping("/sendMsg")
     public R<String> sendMsg(@RequestBody User user, HttpSession session){
         //获取手机号

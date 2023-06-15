@@ -76,9 +76,7 @@ public class ShoppingCartController {
      * @return
      */
     /**
-     * 查看购物车
-     * @return
-     */
+
     @GetMapping("/list")
     public R<List<ShoppingCart>> list(){
         log.info("查看购物车...");

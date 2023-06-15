@@ -10,9 +10,6 @@ import java.time.LocalDateTime;
  * 购物车
  */
 
-/**
- * 购物车
- */
 @Data
 public class ShoppingCart implements Serializable {
 
