@@ -8,6 +8,9 @@ import java.io.Serializable;
  * 用户信息
  */
 
+/**
+ * 用户信息
+ */
 @Data
 public class User implements Serializable {
 
